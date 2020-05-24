@@ -1,264 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Sleep Calculator</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Want to wake up in a good shape? Find out the perfect bedtime or wake up time to rise feeling refreshed and energized.">
+    <meta name="description"
+        content="Want to wake up in a good shape? Find out the perfect bedtime or wake up time to rise feeling refreshed and energized.">
     <meta property="og:title" content="Sleep Calculator">
-    <meta property="og:description" content="Want to wake up in a good shape? Find out the perfect bedtime or wake up time to rise feeling refreshed and energized.">
+    <meta property="og:description"
+        content="Want to wake up in a good shape? Find out the perfect bedtime or wake up time to rise feeling refreshed and energized.">
     <meta property="og:site_name" content="Sleep Calculator">
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/classListAPI.js"></script>
-    <script src="js/lethargy.js"></script>
-    <!--
-    <link rel="stylesheet" href="sb/smartbanner.min.css">
-    <script src="sb/smartbanner.min.js"></script>
-    <meta name="smartbanner:title" content="Sleep Calculator">
-    <meta name="smartbanner:author" content="SleepCalculator.com">
-    <meta name="smartbanner:price" content="FREE">
-    <meta name="smartbanner:price-suffix-apple" content=" - On the App Store">
-    <meta name="smartbanner:price-suffix-google" content=" - In Google Play">
-    <meta name="smartbanner:icon-apple" content="sb/icon.png">
-    <meta name="smartbanner:icon-google" content="sb/icon.png">
-    <meta name="smartbanner:button" content="View">
-    <meta name="smartbanner:button-url-apple" content="https://itunes.apple.com/us/app/sleep-calculator/id1416795317?mt=8">
-    <meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=com.dealwatch24.sleepcalculator">
-    <meta name="smartbanner:enabled-platforms" content="android,ios">
-    -->
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-7681712787585983",
-              enable_page_level_ads: true
-         });
-    </script>
-    <script>
-         document.addEventListener("DOMContentLoaded", function() {
-             var mw = document.getElementsByClassName("mainWrapper")[0];
-             var t = setInterval(function() {
-                 var mws = mw.getAttribute("style");
-                 if (mws.indexOf('important') > 0) {
+
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var mw = document.getElementsByClassName("mainWrapper")[0];
+            var t = setInterval(function () {
+                var mws = mw.getAttribute("style");
+                if (mws.indexOf('important') > 0) {
                     mw.setAttribute("style", "");
                     clearInterval(t);
-                 }
-             }, 100);
-         });
-    </script>
+                }
+            }, 100);
+        });
+    </script> -->
 </head>
+
 <body>
-<section class = "mainWrapper">
-    <header>
-        <img src="images/logo.png" alt="Sleep Calculator"/>
-    </header>
+    <section class="mainWrapper">
+        <header>
+            <img src="images/logo.png" alt="Sleep Calculator" />
+        </header>
 
-    <div class="ads-top ads">
+        </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- sleepcalculator-top-responsive -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7681712787585983"
-     data-ad-slot="9354519229"
-     data-ad-format="horizontal"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-    </div>
-
-    <section id="plan">
-        <h1>If I want to wake up at...</h1>
-        <section class="timeWrapper">
-            <div class="highlightTime"></div>
-            <div class="setTime">
-                <div class="settingsWrapper">
-                    <ul class="settings">
-                        <li class="notChosen">8</li>
-                        <li class="notChosen">9</li>
-                        <li class="notChosen">10</li>
-                        <li class="notChosen">11</li>
-                        <li class="notChosen">12</li>
-                        <li class="notChosen">1</li>
-                        <li class="notChosen">2</li>
-                        <li class="notChosen">3</li>
-                        <li class="notChosen">4</li>
-                        <li class="notChosen">5</li>
-                        <li class="notChosen">6</li>
-                        <li class="notChosen">7</li>
-                        <li class="chosen">8</li>
-                        <li class="notChosen">9</li>
-                        <li class="notChosen">10</li>
-                        <li class="notChosen">11</li>
-                        <li class="notChosen">12</li>
-                        <li class="notChosen">1</li>
-                        <li class="notChosen">2</li>
-                        <li class="notChosen">3</li>
-                        <li class="notChosen">4</li>
-                        <li class="notChosen">5</li>
-                        <li class="notChosen">6</li>
-                        <li class="notChosen">7</li>
-                        <li class="notChosen">8</li>
-                    </ul>
+        <section id="plan">
+            <h1>If I want to wake up at...</h1>
+            <section class="timeWrapper">
+                <div class="highlightTime"></div>
+                <div class="setTime">
+                    <div class="settingsWrapper">
+                        <ul class="settings">
+                            <li class="notChosen">8</li>
+                            <li class="notChosen">9</li>
+                            <li class="notChosen">10</li>
+                            <li class="notChosen">11</li>
+                            <li class="notChosen">12</li>
+                            <li class="notChosen">1</li>
+                            <li class="notChosen">2</li>
+                            <li class="notChosen">3</li>
+                            <li class="notChosen">4</li>
+                            <li class="notChosen">5</li>
+                            <li class="notChosen">6</li>
+                            <li class="notChosen">7</li>
+                            <li class="chosen">8</li>
+                            <li class="notChosen">9</li>
+                            <li class="notChosen">10</li>
+                            <li class="notChosen">11</li>
+                            <li class="notChosen">12</li>
+                            <li class="notChosen">1</li>
+                            <li class="notChosen">2</li>
+                            <li class="notChosen">3</li>
+                            <li class="notChosen">4</li>
+                            <li class="notChosen">5</li>
+                            <li class="notChosen">6</li>
+                            <li class="notChosen">7</li>
+                            <li class="notChosen">8</li>
+                        </ul>
+                    </div>
+                    <div class="settingsWrapper">
+                        <ul class="settings">
+                            <li class="notChosen">00</li>
+                            <li class="notChosen">05</li>
+                            <li class="notChosen">10</li>
+                            <li class="notChosen">15</li>
+                            <li class="notChosen">20</li>
+                            <li class="notChosen">25</li>
+                            <li class="notChosen">30</li>
+                            <li class="notChosen">35</li>
+                            <li class="notChosen">40</li>
+                            <li class="notChosen">45</li>
+                            <li class="notChosen">50</li>
+                            <li class="notChosen">55</li>
+                            <li class="chosen">00</li>
+                            <li class="notChosen">05</li>
+                            <li class="notChosen">10</li>
+                            <li class="notChosen">15</li>
+                            <li class="notChosen">20</li>
+                            <li class="notChosen">25</li>
+                            <li class="notChosen">30</li>
+                            <li class="notChosen">35</li>
+                            <li class="notChosen">40</li>
+                            <li class="notChosen">45</li>
+                            <li class="notChosen">50</li>
+                            <li class="notChosen">55</li>
+                            <li class="notChosen">00</li>
+                        </ul>
+                    </div>
+                    <div class="settingsWrapper">
+                        <ul class="settings">
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="notChosen"></li>
+                            <li class="chosen">AM</li>
+                            <li class="notChosen">PM</li>
+                            <li class="notChosen"></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="settingsWrapper">
-                    <ul class="settings">
-                        <li class="notChosen">00</li>
-                        <li class="notChosen">05</li>
-                        <li class="notChosen">10</li>
-                        <li class="notChosen">15</li>
-                        <li class="notChosen">20</li>
-                        <li class="notChosen">25</li>
-                        <li class="notChosen">30</li>
-                        <li class="notChosen">35</li>
-                        <li class="notChosen">40</li>
-                        <li class="notChosen">45</li>
-                        <li class="notChosen">50</li>
-                        <li class="notChosen">55</li>
-                        <li class="chosen">00</li>
-                        <li class="notChosen">05</li>
-                        <li class="notChosen">10</li>
-                        <li class="notChosen">15</li>
-                        <li class="notChosen">20</li>
-                        <li class="notChosen">25</li>
-                        <li class="notChosen">30</li>
-                        <li class="notChosen">35</li>
-                        <li class="notChosen">40</li>
-                        <li class="notChosen">45</li>
-                        <li class="notChosen">50</li>
-                        <li class="notChosen">55</li>
-                        <li class="notChosen">00</li>
-                    </ul>
-                </div>
-                <div class="settingsWrapper">
-                    <ul class="settings">
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="notChosen"></li>
-                        <li class="chosen">AM</li>
-                        <li class="notChosen">PM</li>
-                        <li class="notChosen"></li>
-                    </ul>
-                </div>
+            </section>
+            <div id="bedTime">
+                <span></span>
+                <p>When should I go to bed?</p>
+            </div>
+            <p class="mode">If I go to sleep now...</p>
+            <div id="getUpTime">
+                <span></span>
+                <p>When should I get up?</p>
             </div>
         </section>
-        <div id="bedTime">
-            <span></span>
-            <p>When should I go to bed?</p>
-        </div>
-        <p class="mode">If I go to sleep now...</p>
-        <div id="getUpTime">
-            <span></span>
-            <p>When should I get up?</p>
-        </div>
-    </section>
-    <section id="getUp" class="caclResult">
-        <h1>Wake up times</h1>
-        <p class="desc">It takes the average human about 15 minutes to fall asleep.<br>
-            If you go to sleep right now, you should try to wake up at one of the following times:
-        </p>
-        <ul class="instructions">
-            <li class="wakeUpTime">10:45 PM</li>
-            <li class="wakeUpTime">12:15 AM</li>
-            <li class="wakeUpTime">1:45 AM</li>
-            <li class="wakeUpTime">3:15 AM</li>
-            <li class="wakeUpTime prior">4:45 AM</li>
-            <li class="wakeUpTime prior">6:15 AM</li>
-        </ul>
-        <p class="desc">If you wake up at one of these times, you'll rise in between 90-minute sleep cycles.
-            A good night's sleep consists of 5-6 complete sleep cycles.<br>
-	    Try <a rel="nofollow" href="https://www.amazon.com/Philips-Connected-Smartphone-HF3670-60/dp/B07GXWDXBD?ref_=ast_sto_dp&amp;th=1&amp;psc=1&_encoding=UTF8&tag=sleepcalculator.com-20&linkCode=ur2&linkId=2802e7c13a13b8eb42656335da48f17f&camp=1789&creative=9325">The Wake-Up Light With Sunrise Simulation</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=sleepcalculator.com-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> that provides a pleasant, natural way to start your morning.
-        </p>
-        <p class="calcAgain">Calculate again</p>
-    </section>
-    <section id="goToBed" class="caclResult">
-        <h1>Go to bed times</h1>
-        <p class="desc">It takes the average human about 15 minutes to fall asleep.<br>
-            To wake up refreshed at <span id="wakeUpTime"></span>, you should go to bed at one of the following times:
-        </p>
-        <ul class="instructions">
-            <li class="goToBedTime prior">10:45 PM</li>
-            <li class="goToBedTime prior">12:15 AM</li>
-            <li class="goToBedTime">1:45 AM</li>
-            <li class="goToBedTime">3:15 AM</li>
-            <li class="goToBedTime">4:45 AM</li>
-            <li class="goToBedTime">6:15 AM</li>
-        </ul>
-        <p class="desc">If you wake up at one of these times, you'll rise in between 90-minute sleep cycles.
-            A good night's sleep consists of 5-6 complete sleep cycles.<br>
-	    Try <a rel="nofollow" href="https://www.amazon.com/Philips-Connected-Smartphone-HF3670-60/dp/B07GXWDXBD?ref_=ast_sto_dp&amp;th=1&amp;psc=1&_encoding=UTF8&tag=sleepcalculator.com-20&linkCode=ur2&linkId=2802e7c13a13b8eb42656335da48f17f&camp=1789&creative=9325">The Wake-Up Light With Sunrise Simulation</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=sleepcalculator.com-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> that provides a pleasant, natural way to start your morning.
-        </p>
-        <p class="calcAgain">Calculate again</p>
-    </section>
-    <section id = "animation">
-        <span id = "sun"></span>
-        <span id = "stars">
-            <span id = "moon"></span>
-        </span>
+        <section id="getUp" class="caclResult">
+            <h1>Wake up times</h1>
+            <p class="desc">It takes the average human about 15 minutes to fall asleep.<br>
+                If you go to sleep right now, you should try to wake up at one of the following times:
+            </p>
+            <ul class="instructions">
+                <li class="wakeUpTime">10:45 PM</li>
+                <li class="wakeUpTime">12:15 AM</li>
+                <li class="wakeUpTime">1:45 AM</li>
+                <li class="wakeUpTime">3:15 AM</li>
+                <li class="wakeUpTime prior">4:45 AM</li>
+                <li class="wakeUpTime prior">6:15 AM</li>
+            </ul>
+            <p class="desc">If you wake up at one of these times, you'll rise in between 90-minute sleep cycles.
+                A good night's sleep consists of 5-6 complete sleep cycles.<br>
+            </p>
+            <p class="calcAgain">Calculate again</p>
+        </section>
+        <section id="goToBed" class="caclResult">
+            <h1>Go to bed times</h1>
+            <p class="desc">It takes the average human about 15 minutes to fall asleep.<br>
+                To wake up refreshed at <span id="wakeUpTime"></span>, you should go to bed at one of the following
+                times:
+            </p>
+            <ul class="instructions">
+                <li class="goToBedTime prior">10:45 PM</li>
+                <li class="goToBedTime prior">12:15 AM</li>
+                <li class="goToBedTime">1:45 AM</li>
+                <li class="goToBedTime">3:15 AM</li>
+                <li class="goToBedTime">4:45 AM</li>
+                <li class="goToBedTime">6:15 AM</li>
+            </ul>
+            <p class="desc">If you wake up at one of these times, you'll rise in between 90-minute sleep cycles.
+                A good night's sleep consists of 5-6 complete sleep cycles.<br>
+            </p>
+            <p class="calcAgain">Calculate again</p>
+        </section>
+        <section id="animation">
+            <span id="sun"></span>
+            <span id="stars">
+                <span id="moon"></span>
+            </span>
+        </section>
+
+        <section id="sleepStages">
+            <div id="button">
+                <span></span>
+                <a href="https://en.m.wikipedia.org/wiki/Sleep#Stages" target="_blank">Sleep Stages</a>
+            </div>
+        </section>
     </section>
 
-    <section id="sleepStages">
-        <div id="button">
-            <span></span>
-            <a href="https://en.m.wikipedia.org/wiki/Sleep#Stages" target="_blank">Sleep Stages</a>
-        </div>
-    </section>
-</section>
+    <script src="js/main.js"></script>
+    <script src="js/lethargy.js"></script>
+    <script src="js/mouseWheel.js"></script>
 
-<script src="js/main.js"></script>
-<script src="js/mouseWheel.js"></script>
-
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://stats.monohost.com/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '29']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
-
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-var gdpr = "(none)";
-if (gdpr == "1") {
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000000",
-      "text": "#ffffff"
-    },
-    "button": {
-      "background": "#8ec760",
-      "text": "#ffffff"
-    }
-  },
-  // "theme": "edgeless",
-  "content": {
-    "message": "Google collects data and uses cookies for ad personalization and measurement for this site. <a class='cc-link' target='_blank' href='https://policies.google.com/technologies/partner-sites'>Learn how Google collects and uses data.</a> By using this site, you consent to our use of cookies. You can turn off ad personalization at any time in your Google account settings."
-  }
-})});
-}
-</script>
 
 </body>
+
 </html>

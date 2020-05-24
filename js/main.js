@@ -77,7 +77,7 @@
         var timeInMin;
         var newH;
 
-        //нормирую часы
+        // normalize the clock
         if (hours === hourBase) {
             timeInMin = min;
             hours = 0;
@@ -87,7 +87,7 @@
 
         var newTime = timeInMin + change;
 
-        //считаю минуты и часы
+        // count minutes and hours
         if (newTime >= 0) {
             min = newTime % minInHour;
             if (Math.floor(newTime / minInHour) >= hourBase) {
@@ -100,7 +100,7 @@
             newH = Math.floor((maxValue + (timeInMin + change)) / minInHour);
         }
 
-//вычисляю половину дня
+        // calculate half the day
         if ((change > 0 && newH < hours) || (change < 0 && newH > hours)) {
             if (dayHalf == "AM") {
                 dayHalf = "PM";
@@ -109,7 +109,7 @@
             }
         }
 
-        //возвращаю часы к нужному формату
+        // return the watch to the desired format
         if (newH === 0) {
             hours = hourBase;
         }
