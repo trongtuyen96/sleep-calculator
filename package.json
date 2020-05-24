@@ -1,0 +1,19 @@
+{
+  "name": "sleep-calculator",
+  "version": "1.0.0",
+  "description": "Calculator for a better sleep.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongtuyen96/sleep-calculator.git"
+  },
+  "author": "Tuyen Nguyen",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/trongtuyen96/sleep-calculator/issues"
+  },
+  "homepage": "https://github.com/trongtuyen96/sleep-calculator#readme"
+}
